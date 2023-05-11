@@ -1,0 +1,31 @@
+{
+  "name": "blackcoin-io",
+  "version": "1.0.0",
+  "description": "Модуль для удобного использования BlackCoin API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blackcoin",
+    "blackcoin-io",
+    "vkontakte",
+    "вконтакте",
+    "вк",
+    "vk",
+    "api",
+    "апи",
+    "coin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defrizletov/blackcoin-io.git"
+  },
+  "author": "AdepT-Hub <adept-hub.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fastify": "^4.17.0",
+    "js-md5": "^0.7.3"
+  }
+}
