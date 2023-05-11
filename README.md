@@ -8,7 +8,7 @@
 
 **Модуль** для удобного использования **[BlackCoin API](https://vk.com/@black_coin_roulette-api)**.
   
-От **[AdepT-Hub](https://adept-hub.ru)** с  ❤.
+От **[AdepT-Hub](https://adept-hub.ru)** с ❤.
 
 </div>
 
@@ -28,7 +28,7 @@ const { BlackCoin, BlackCoinCallback } = require('blackcoin-io');
 // token - ваш ключ авторизации, полученный в приложении.
 const blackCoin = new BlackCoin({ token: process.env.TOKEN });
 
-// Запрос для примера, получения баланса нашего аккаунта.
+// Запрос для примера, получение баланса нашего аккаунта.
 // Потом вывод ответа или ошибки в консоль.
 blackCoin.getBalance().then(console.log).catch(console.error);
 
